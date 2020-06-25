@@ -48,6 +48,8 @@ a {
   transition: .3s ease;
 }
 
+
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -104,8 +106,7 @@ nav li a:hover {
 
 .home {
   top: 50px;
-  height: 100vh;
-  padding: 100px 0 0;
+  padding: 130px 0;
   background: rgb(33, 33, 33);
 }
 
@@ -130,6 +131,10 @@ nav li a:hover {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
+}
+
+.icons a:hover {
+  background-color: #ff4a57;
 }
 
 .btn:hover {
@@ -257,22 +262,21 @@ nav li a:hover {
   justify-content: space-between;
 }
 
-.text h1 {
-  margin: 15px 0;
-}
-
 .text {
   max-width: 45%;
 }
 
-.text, .skill-progress-bar {
-  padding: 0 15px;
+.text h1 {
+  margin: 15px 0;
 }
 
-.hire-me {
-  padding: 10px 30px;
-  border: 2px solid #ff4a57;
-  border-radius: 25px 25px 25px 25px;
+.text p {
+  margin: 0 0 50px;
+  line-height: 30px;
+}
+
+.text, .skill-progress-bar {
+  padding: 0 15px;
 }
 
 .hire-me:hover {
@@ -318,6 +322,7 @@ nav li a:hover {
   }
 
   .btn-portfolio {
+    margin-right: 0;
     margin-bottom: 30px;
   }
 
@@ -342,11 +347,6 @@ nav li a:hover {
   }
 }
 
-@media (max-width: 530px) {
-  .home-btn {
-    display: none;
-  }
-}
 
 
 
