@@ -90,19 +90,30 @@ nav li a:hover {
   color: #ff4a57;
 }
 
+.logo {
+  margin-right: auto;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 2px solid #ff4a57;
+  border-radius: 25px 25px 25px 25px;
+}
+
 /*home*/
 
 .home {
   top: 50px;
   height: 100vh;
   padding: 100px 0 0;
+  background: rgb(33, 33, 33);
 }
 
 .icons a {
   color: #f0f0f0;
   width: 50px;
   height: 50px;
-  background: #181818;
+  background: transparent;
   text-align: center;
   padding: 13px;
   border: 2px solid #ff4a57;
@@ -121,7 +132,7 @@ nav li a:hover {
   flex-direction: column;
 }
 
-.home div a:hover {
+.btn:hover {
   background-color: #ff4a57;
 }
 
@@ -146,13 +157,7 @@ nav li a:hover {
 
 #home-text {
   text-align: center;
-  padding: 50px 100px;
-}
-
-#home-text a {
-  padding: 10px 30px;
-  border: 2px solid #ff4a57;
-  border-radius: 25px 25px 25px 25px;
+  margin: 50px 100px;
 }
 
 .btn-portfolio {
@@ -167,11 +172,10 @@ nav li a:hover {
 /*services*/
 
 .services {
-  background: rgb(33, 33, 33);
   padding: 130px 0;
 }
 
-.container {
+.title {
   text-align: -webkit-center;
 }
 
@@ -196,7 +200,7 @@ nav li a:hover {
 }
 
 .card {
-  background-color: #181818;
+  background-color: rgb(33, 33, 33);
   padding: 50px 35px;
   text-align: left;
   border-radius: 2px;
@@ -214,6 +218,137 @@ nav li a:hover {
 .card h3 {
   margin: 20px 0;
 }
+/*about*/
+
+.about-me {
+  padding: 130px 0;
+  background: rgb(33, 33, 33);
+}
+
+.about-title {
+  max-width: 50%;
+}
+
+.about-title h2{
+  margin: 15px 0;
+  font-size: 35px;
+}
+
+.about-title p {
+  margin-bottom: 100px;
+  font-style: italic;
+}
+
+/*skills*/
+
+#skills {
+  height: 80vh;
+  padding: 130px 0;
+}
+
+#skills .container {
+  display: flex;
+}
+
+.skills-title {
+  display: flex;
+  margin: 0 -15px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text h1 {
+  margin: 15px 0;
+}
+
+.text {
+  max-width: 45%;
+}
+
+.text, .skill-progress-bar {
+  padding: 0 15px;
+}
+
+.hire-me {
+  padding: 10px 30px;
+  border: 2px solid #ff4a57;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.hire-me:hover {
+  background-color: #ff4a57;
+}
+
+.skill-progress-bar {
+  max-width: 50%;
+  width: 100%;
+}
+
+.skills-bar {
+  margin: 15px 0;
+  height: 5px;
+  display: block;
+  background-color: #ff4a57;
+}
+
+.sb1 {
+  width: 88%;
+}
+
+.sb2 {
+  width: 81%;
+}
+
+.sb3 {
+  width: 70%;
+}
+
+.sb4 {
+  width: 90%;
+}
+
+@media (max-width: 680px){
+  #home-text {
+    margin: 30px; 
+  }
+
+  .home-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-portfolio {
+    margin-bottom: 30px;
+  }
+
+  .btn-youtube {
+    margin: 0;
+  }
+
+  .about-title {
+    max-width: 100%;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .skills-title {
+    display: block;
+  }
+
+  .skill-progress-bar {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  .home-btn {
+    display: none;
+  }
+}
+
+
 
 
 
