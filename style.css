@@ -247,7 +247,6 @@ nav li a:hover {
 /*skills*/
 
 #skills {
-  height: 80vh;
   padding: 130px 0;
 }
 
@@ -289,10 +288,30 @@ nav li a:hover {
 }
 
 .skills-bar {
-  margin: 15px 0;
   height: 5px;
   display: block;
   background-color: #ff4a57;
+  visibility: visible; 
+  animation-name: slideInLeft;
+}
+
+#background-bar {
+  margin-bottom: 20px;
+}
+
+#background-bar::before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: relative;
+  background: rgba(33, 33, 33, 0.98);
+  z-index: -1;
+  top: 49px;
+}
+
+#background-bar p{
+  margin-bottom: 20px;
 }
 
 .sb1 {
@@ -319,6 +338,7 @@ nav li a:hover {
   .icons {
     flex-direction: unset;
     margin-top: 20px;
+    justify-content: space-around;
   }
   
   .icons a {
