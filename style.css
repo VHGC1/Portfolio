@@ -52,8 +52,6 @@ a {
   transition: .3s ease;
 }
 
-
-
 .container {
   max-width: 1170px;
   width: 100%;
@@ -388,6 +386,17 @@ nav li a:hover {
   background-color: rgba(33, 33, 33);
   border: 0;
   border-radius: 8px;
+}
+
+.contact-form #form-btn {
+  padding: 18px 60px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #ff4a57;
+  color: #f0f0f0;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 
