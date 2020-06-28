@@ -361,19 +361,21 @@ nav li a:hover {
 
 .contact-form form input,textarea {
   color: #ff4a57;
+  font-family: Poppins;
+  font-size: 15px;
 }
 
 #name-email-input {
   display: flex;
 }
 
-#name-email-input #name {
+#name-email-input input {
   width: 50%;
-  margin-right: 15px;
+  justify-content: space-between;
 }
 
-#name-email-input #email {
-  width: 50%;
+#name-email-input #name {
+  margin-right: 20px;
 }
 
 .contact-form #subject {
@@ -432,6 +434,16 @@ nav li a:hover {
   .skill-progress-bar {
     max-width: 100%;
     margin-top: 100px;
+    
+  }
+
+  #name-email-input {
+    display: block;
+    width: 100%;
+  }
+
+  #name-email-input input{
+    width: 100%;
   }
 }
 
