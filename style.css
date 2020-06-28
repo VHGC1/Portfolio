@@ -344,6 +344,51 @@ nav li a:hover {
   background: rgba(33, 33, 33, 0.98);
 }
 
+/*Contact*/
+
+.contact-form {
+  color: #f0f0f0;
+}
+
+.contact-form form input{
+  height: 50px;
+  padding: 15px;
+  background-color: rgba(33, 33, 33);
+  border: 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.contact form input,textarea {
+  color: #ff4a57;
+}
+
+#name-email-input {
+  display: flex;
+}
+
+#name-email-input #name {
+  width: 50%;
+  margin-right: 15px;
+}
+
+#name-email-input #email {
+  width: 50%;
+}
+
+.contact-form #subject {
+  width: 100%;
+}
+
+.contact-form #message {
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(33, 33, 33);
+  border: 0;
+  border-radius: 8px;
+}
+
+
 @media (max-width: 680px){
   .home .container {
     display: block;
